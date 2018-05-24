@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import { Nav, NavItem, Navbar, MenuItem, NavDropdown, Glyphicon, Row, Col, Dropdown } from 'react-bootstrap';
 import CustomToggle from "./components/custom-toggle";
 import CustomMenu from "./components/custom-menu";
