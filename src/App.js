@@ -42,17 +42,17 @@ class App extends Component {
         </Navbar>
         <Row className="show-grid">
           <Col lgHidden mdHidden md={12}>
-          <Dropdown id="dropdown-custom-menu">
-                  <CustomToggle bsRole="toggle"><Glyphicon glyph="plus" /></CustomToggle>
-                  <CustomMenu bsRole="menu">
-                    <MenuItem eventKey="1">Red</MenuItem>
-                    <MenuItem eventKey="2">Blue</MenuItem>
-                    <MenuItem eventKey="3" active>
-                      Orange
+            <Dropdown id="dropdown-custom-menu">
+              <CustomToggle bsRole="toggle"><Glyphicon glyph="plus" /></CustomToggle>
+              <CustomMenu bsRole="menu">
+                <MenuItem eventKey="1">Red</MenuItem>
+                <MenuItem eventKey="2">Blue</MenuItem>
+                <MenuItem eventKey="3" active>
+                  Orange
                     </MenuItem>
-                    <MenuItem eventKey="1">Red-Orange</MenuItem>
-                  </CustomMenu>
-                </Dropdown>  
+                <MenuItem eventKey="1">Red-Orange</MenuItem>
+              </CustomMenu>
+            </Dropdown>
             <Nav bsStyle="pills">
               <NavItem eventKey={2} title="Item">
                 <Glyphicon glyph="plus" />
@@ -73,13 +73,13 @@ class App extends Component {
                 <Glyphicon glyph="fullscreen" />
               </NavItem>
               <NavItem eventKey={7}>
-              <Glyphicon glyph="pencil" />
+                <Glyphicon glyph="pencil" />
               </NavItem>
               <NavItem eventKey={8}>
-              <Glyphicon glyph="step-backward" />
+                <Glyphicon glyph="step-backward" />
               </NavItem>
               <NavItem eventKey={9}>
-              <Glyphicon glyph="step-forward" />
+                <Glyphicon glyph="step-forward" />
               </NavItem>
             </Nav>
           </Col>
@@ -104,13 +104,13 @@ class App extends Component {
                 <Glyphicon glyph="fullscreen" />
               </NavItem>
               <NavItem eventKey={7}>
-              <Glyphicon glyph="pencil" />
+                <Glyphicon glyph="pencil" />
               </NavItem>
               <NavItem eventKey={8}>
-              <Glyphicon glyph="step-backward" />
+                <Glyphicon glyph="step-backward" />
               </NavItem>
               <NavItem eventKey={9}>
-              <Glyphicon glyph="step-forward" />
+                <Glyphicon glyph="step-forward" />
               </NavItem>
             </Nav>
           </Col>
